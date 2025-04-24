@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaEnvelope } from "react-icons/fa"; // Keep only FaEnvelope import
+import { FaEnvelope } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Header = () => {
