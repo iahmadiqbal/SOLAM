@@ -1,5 +1,11 @@
+import SolarHeroSection from "../../components/home";
+
 const Home = () => {
-  return <div>Home page</div>;
+  return (
+    <>
+      <SolarHeroSection />
+    </>
+  );
 };
 
 export default Home;
