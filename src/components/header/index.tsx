@@ -56,7 +56,7 @@ const Header = () => {
               to="/quote"
               className="text-lg text-white bg-blue-600 hover:bg-blue-700 px-4 py-2 flex items-center gap-2 rounded-md"
             >
-              <FaEnvelope size={18} /> {/* Keep Envelope icon */}
+              <FaEnvelope size={18} />
               Get a Quote
             </Link>
           </nav>
