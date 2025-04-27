@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 const OurServices = () => {
   return (
     <div className="space-y-10 px-4 sm:px-8 lg:px-16">
@@ -7,12 +9,20 @@ const OurServices = () => {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        <div className="flex flex-col items-center bg-gray-50 p-6 border-4 border-gray-50 shadow-lg">
+        <motion.div
+          className="flex flex-col items-center bg-gray-50 p-6 border-4 border-gray-50 shadow-lg"
+          initial={{ opacity: 0, y: 50 }} // Start from bottom
+          animate={{ opacity: 1, y: 0 }} // Move to normal position (up)
+          transition={{ duration: 0.8 }}
+        >
           <div className="w-full h-64 mb-4 overflow-hidden relative">
-            <img
+            <motion.img
               src="/images/solarTechnology.jpg"
               alt="Solar Technology"
               className="w-full  object-cover"
+              initial={{ y: 50 }} // Initial position is 50px below
+              animate={{ y: 0 }} // Animate to its normal position
+              transition={{ duration: 0.8 }}
             />
             <div className="absolute top-47 right-5 z-10">
               <img src="/images/icon-1.png" alt="Icon" className="w-16 h-16" />
@@ -26,14 +36,22 @@ const OurServices = () => {
               tellus, luctus nec ullamcorper mattis, pul leo.
             </p>
           </div>
-        </div>
+        </motion.div>
 
-        <div className="flex flex-col items-center bg-gray-50 p-6 border-4 border-gray-50 shadow-lg">
+        <motion.div
+          className="flex flex-col items-center bg-gray-50 p-6 border-4 border-gray-50 shadow-lg"
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+        >
           <div className="w-full h-64 mb-4 overflow-hidden relative">
-            <img
+            <motion.img
               src="/images/solarinstallation.jpg"
               alt="Solar Installation"
               className="w-full  object-cover"
+              initial={{ y: 50 }}
+              animate={{ y: 0 }}
+              transition={{ duration: 0.8 }}
             />
             <div className="absolute top-47 right-5 z-10">
               <img src="/images/icon-2.png" alt="Icon" className="w-16 h-16" />
@@ -47,14 +65,22 @@ const OurServices = () => {
               tellus, luctus nec ullamcorper mattis, pul leo.
             </p>
           </div>
-        </div>
+        </motion.div>
 
-        <div className="flex flex-col items-center bg-gray-50 p-6 border-4 border-gray-50 shadow-lg">
+        <motion.div
+          className="flex flex-col items-center bg-gray-50 p-6 border-4 border-gray-50 shadow-lg"
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.4 }}
+        >
           <div className="w-full h-64 mb-4 overflow-hidden relative">
-            <img
+            <motion.img
               src="/images/solarEquipment.jpg"
               alt="Solar Equipment"
               className="w-full  object-cover"
+              initial={{ y: 50 }}
+              animate={{ y: 0 }}
+              transition={{ duration: 0.8 }}
             />
             <div className="absolute top-47 right-5 z-10">
               <img src="/images/icon-3.png" alt="Icon" className="w-16 h-16" />
@@ -68,7 +94,7 @@ const OurServices = () => {
               tellus, luctus nec ullamcorper mattis, pul leo.
             </p>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
