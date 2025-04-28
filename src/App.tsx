@@ -1,12 +1,13 @@
 import { Routes, Route } from "react-router-dom";
 
-import About from "./pages/about"; // Ensure correct import
-import Contact from "./pages/contact"; // Ensure correct import
-import Home from "./pages/home"; // Ensure correct import
-import OurTeam from "./pages/ourTeam"; // Ensure correct import
-import Project from "./pages/project"; // Ensure correct import
-import Services from "./pages/Services"; // Ensure correct import
+import About from "./pages/about";
+import Contact from "./pages/contact";
+import Home from "./pages/home";
+
+import Project from "./pages/project";
+import Services from "./pages/Services";
 import Header from "./components/header";
+import OurTeam from "./pages/OurTeam";
 
 function App() {
   return (
@@ -17,8 +18,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Project />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/ourteam" element={<OurTeam />} />{" "}
-        {/* Ensure lowercase route */}
+        <Route path="/ourteam" element={<OurTeam />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </>
