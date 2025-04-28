@@ -6,6 +6,7 @@ import {
   FaEnvelope,
   FaPhone,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -51,22 +52,68 @@ function Footer() {
             <div className="flex flex-col w-full sm:w-[24%] mb-8 sm:mb-0">
               <h2 className="text-xl font-semibold mb-2">Explore</h2>
               <ul className="space-y-1">
-                <li>About</li>
-                <li>Leadership Team</li>
-                <li>Our Services</li>
-                <li>Recent Projects</li>
-                <li>Contact</li>
+                <li>
+                  <Link to="/about" className="hover:text-gray-400">
+                    About
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/team" className="hover:text-gray-400">
+                    Leadership Team
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/services" className="hover:text-gray-400">
+                    Our Services
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/projects" className="hover:text-gray-400">
+                    Recent Projects
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/contact" className="hover:text-gray-400">
+                    Contact
+                  </Link>
+                </li>
               </ul>
             </div>
 
             <div className="flex flex-col w-full sm:w-[24%] mb-8 sm:mb-0">
               <h2 className="text-xl font-semibold mb-2">Services</h2>
               <ul className="space-y-1">
-                <li>Solar Technology</li>
-                <li>Solar Installation</li>
-                <li>Battery Materials</li>
-                <li>Solar Equipment</li>
-                <li>Charge Controllers</li>
+                <li>
+                  <Link to="/solar-technology" className="hover:text-gray-400">
+                    Solar Technology
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/solar-installation"
+                    className="hover:text-gray-400"
+                  >
+                    Solar Installation
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/battery-materials" className="hover:text-gray-400">
+                    Battery Materials
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/solar-equipment" className="hover:text-gray-400">
+                    Solar Equipment
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/charge-controllers"
+                    className="hover:text-gray-400"
+                  >
+                    Charge Controllers
+                  </Link>
+                </li>
               </ul>
             </div>
 
@@ -78,16 +125,28 @@ function Footer() {
               <div className="flex flex-col items-start space-y-4 mt-4 sm:mt-0">
                 <h2 className="text-xl font-semibold">Follow Us</h2>
                 <div className="flex space-x-6">
-                  <a href="#" className="text-white">
+                  <a
+                    href="https://facebook.com"
+                    className="text-white hover:text-gray-400"
+                  >
                     <FaFacebookF />
                   </a>
-                  <a href="#" className="text-white">
+                  <a
+                    href="https://twitter.com"
+                    className="text-white hover:text-gray-400"
+                  >
                     <FaTwitter />
                   </a>
-                  <a href="#" className="text-white">
+                  <a
+                    href="https://youtube.com"
+                    className="text-white hover:text-gray-400"
+                  >
                     <FaYoutube />
                   </a>
-                  <a href="#" className="text-white">
+                  <a
+                    href="https://instagram.com"
+                    className="text-white hover:text-gray-400"
+                  >
                     <FaInstagram />
                   </a>
                 </div>
