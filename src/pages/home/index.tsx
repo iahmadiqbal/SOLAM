@@ -4,6 +4,7 @@ import IntroSection from "../../components/home/IntroSection";
 import KeyMetrics from "../../components/home/KeyMetrics";
 import OurServices from "../../components/home/OurServices";
 import ProjectShowcase from "../../components/home/ProjectShowcase";
+import WhyChooseSolar from "../../components/home/WhyChooseSolar";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <ProjectShowcase />
       <EnergyAwareness />
       <KeyMetrics />
+      <WhyChooseSolar />
     </>
   );
 };
