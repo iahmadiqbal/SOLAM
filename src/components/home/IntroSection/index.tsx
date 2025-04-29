@@ -1,25 +1,38 @@
 import { FiSettings } from "react-icons/fi";
 import { FaPhoneAlt } from "react-icons/fa";
+import { motion } from "framer-motion"; // Import motion from framer-motion
 
 const IntroSection = () => {
   return (
     <div className="flex flex-col lg:flex-row items-center justify-between py-12 px-6 space-y-8 lg:space-y-0 mt-5">
-      <div className="relative w-full lg:w-1/2">
+      {/* Animate the image using motion.div */}
+      <motion.div
+        className="relative w-full lg:w-1/2"
+        initial={{ x: -100 }} // Start from the left
+        animate={{ x: 0 }} // Move to its normal position
+        transition={{ duration: 0.5 }} // Faster animation (0.5 seconds)
+      >
         <img
           src="images/introsection.jpg"
           alt="Experience"
           className="w-full h-auto rounded-lg"
         />
-        <div className="absolute bottom-0 left-0 bg-yellow-400 text-white px-3 py-4 w-44 h-32 ">
+        <div className="absolute bottom-0 left-0 bg-yellow-400 text-white px-3 py-4 w-44 h-32">
           <h2 className="text-2xl sm:text-3xl font-semibold leading-tight">
             12<sup className="text-lg">+</sup> <br />
             Years of <br />
             Experience
           </h2>
         </div>
-      </div>
+      </motion.div>
 
-      <div className="w-full lg:w-1/2 lg:pl-12">
+      {/* Animate the content using motion.div */}
+      <motion.div
+        className="w-full lg:w-1/2 lg:pl-12"
+        initial={{ x: 100 }} // Start from the right
+        animate={{ x: 0 }} // Move to its normal position
+        transition={{ duration: 0.5 }} // Faster animation (0.5 seconds)
+      >
         <div className="w-10 py-1 bg-amber-500">
           <hr className="border-t" />
         </div>
@@ -73,7 +86,7 @@ const IntroSection = () => {
             </p>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };
