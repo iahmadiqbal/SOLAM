@@ -22,43 +22,45 @@ const MetricCard = ({ number, title, description, icon }: MetricCardProps) => (
   </div>
 );
 
-const KeyMetrics = () => (
-  <div className="bg-gray-300 py-12 px-4">
-    <div className="max-w-7xl mx-auto flex flex-wrap justify-between gap-6">
-      <div className="flex-1 min-w-[250px]">
-        <MetricCard
-          number={68}
-          title="Panels Installed"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          icon="images/circle-icon-1.png"
-        />
-      </div>
-      <div className="flex-1 min-w-[250px]">
-        <MetricCard
-          number={54}
-          title="Technical Support"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          icon="images/circle-icon-2.png"
-        />
-      </div>
-      <div className="flex-1 min-w-[250px]">
-        <MetricCard
-          number={33}
-          title="Years Experience"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          icon="images/circle-icon-3.png"
-        />
-      </div>
-      <div className="flex-1 min-w-[250px]">
-        <MetricCard
-          number={88}
-          title="Five Star Reviews"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          icon="images/circle-icon-4.png"
-        />
+const KeyMetrics = () => {
+  const metrics = [
+    {
+      number: 68,
+      title: "Panels Installed",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      icon: "images/circle-icon-1.png",
+    },
+    {
+      number: 54,
+      title: "Technical Support",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      icon: "images/circle-icon-2.png",
+    },
+    {
+      number: 33,
+      title: "Years Experience",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      icon: "images/circle-icon-3.png",
+    },
+    {
+      number: 88,
+      title: "Five Star Reviews",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      icon: "images/circle-icon-4.png",
+    },
+  ];
+
+  return (
+    <div className="bg-[#F8F3EF] py-12 px-4">
+      <div className="max-w-7xl mx-auto flex flex-wrap justify-between gap-6">
+        {metrics.map((metric, index) => (
+          <div key={index} className="flex-1 min-w-[250px]">
+            <MetricCard {...metric} />
+          </div>
+        ))}
       </div>
     </div>
-  </div>
-);
+  );
+};
 
 export default KeyMetrics;
