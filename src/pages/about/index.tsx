@@ -3,6 +3,7 @@ import RenewableEnergySources from "../../components/about/RenewableEnergySource
 import SolarEssentials from "../../components/about/SolarEssentials";
 import EnergyAwareness from "../../components/home/EnergyAwareness";
 import KeyMetrics from "../../components/home/KeyMetrics";
+import Testimonials from "./Ourtestimonials";
 
 const About = () => {
   return (
@@ -12,6 +13,7 @@ const About = () => {
       <EnergyAwareness />
       <KeyMetrics />
       <RenewableEnergySources />
+      <Testimonials />
     </>
   );
 };
