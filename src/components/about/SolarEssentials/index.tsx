@@ -1,7 +1,6 @@
 const SolarEssentials = () => {
   return (
     <div className="flex flex-wrap justify-between gap-8 p-8">
-      {/* پہلا کارڈ */}
       <div className="w-full md:w-[48%] lg:w-[30%]">
         <img
           src="images/Renewablesource.jpg"
@@ -17,7 +16,6 @@ const SolarEssentials = () => {
         </div>
       </div>
 
-      {/* دوسرا کارڈ */}
       <div className="w-full md:w-[48%] lg:w-[30%]">
         <img
           src="images/Easyinstalltioncompnent.jpg"
@@ -33,7 +31,6 @@ const SolarEssentials = () => {
         </div>
       </div>
 
-      {/* تیسرا کارڈ */}
       <div className="w-full md:w-[48%] lg:w-[30%]">
         <img
           src="images/lowmaintance.jpg"
