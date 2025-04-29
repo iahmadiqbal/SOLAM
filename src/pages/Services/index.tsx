@@ -1,5 +1,11 @@
+import EnergySaverTabs from "../../components/services/EnergySaverTabs";
+
 const Services = () => {
-  return <div>Service</div>;
+  return (
+    <>
+      <EnergySaverTabs />
+    </>
+  );
 };
 
 export default Services;
