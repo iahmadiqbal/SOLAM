@@ -1,3 +1,4 @@
+import Footer from "../../components/home/footer";
 import MeetTheTeam from "../../components/ourTeam/MeetTheTeam";
 import SolarLeaders from "../../components/ourTeam/SolarLeaders";
 
@@ -6,6 +7,7 @@ function OurTeam() {
     <>
       <SolarLeaders />
       <MeetTheTeam />
+      <Footer />
     </>
   );
 }
