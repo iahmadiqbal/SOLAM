@@ -1,5 +1,11 @@
+import NeedAssistance from "../../components/contact/NeedAssistance";
+
 const Contact = () => {
-  return <div>Contact</div>;
+  return (
+    <>
+      <NeedAssistance />
+    </>
+  );
 };
 
 export default Contact;
