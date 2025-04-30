@@ -1,9 +1,16 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FaEnvelope } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { NavLink, useLocation, Link } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
+
+  // Scroll to top on route change
+  useEffect(() => {
+    window.scrollTo(0, 0); // Ensure page scrolls to top on route change
+    setIsMenuOpen(false); // Close menu on navigation
+  }, [location]);
 
   return (
     <header className="bg-white shadow-md relative z-50">
@@ -52,7 +59,6 @@ const Header = () => {
             >
               Contact
             </Link>
-            {/* UPDATED: Get a Quote with new background color */}
             <Link
               to="/contact"
               className="text-lg text-white bg-[#F6A235] hover:bg-[#e58f1f] px-4 py-2 flex items-center gap-2 rounded-md"
@@ -88,57 +94,46 @@ const Header = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed left-0 top-[105px] w-64 h-[calc(100%-80px)] bg-white shadow-lg z-40 transform transition-transform duration-300 ease-in-out ${
+        className={`fixed left-0 top-[69px] w-64 h-[calc(100%-80px)] bg-white shadow-lg z-40 transform transition-transform duration-300 ease-in-out ${
           isMenuOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
         <div className="flex flex-col space-y-6 p-6">
-          <Link
-            to="/"
-            onClick={() => setIsMenuOpen(false)}
-            className="text-lg text-gray-700 hover:text-blue-600"
-          >
+          <Link to="/" className="text-lg text-gray-700 hover:text-blue-600">
             Home
           </Link>
           <Link
             to="/about"
-            onClick={() => setIsMenuOpen(false)}
             className="text-lg text-gray-700 hover:text-blue-600"
           >
             About
           </Link>
           <Link
             to="/projects"
-            onClick={() => setIsMenuOpen(false)}
             className="text-lg text-gray-700 hover:text-blue-600"
           >
             Projects
           </Link>
           <Link
             to="/services"
-            onClick={() => setIsMenuOpen(false)}
             className="text-lg text-gray-700 hover:text-blue-600"
           >
             Services
           </Link>
           <Link
             to="/ourteam"
-            onClick={() => setIsMenuOpen(false)}
             className="text-lg text-gray-700 hover:text-blue-600"
           >
             Our Team
           </Link>
           <Link
             to="/contact"
-            onClick={() => setIsMenuOpen(false)}
             className="text-lg text-gray-700 hover:text-blue-600"
           >
             Contact
           </Link>
-          {/* UPDATED: Mobile version Get a Quote */}
           <Link
             to="/contact"
-            onClick={() => setIsMenuOpen(false)}
             className="text-lg text-white bg-[#F6A235] hover:bg-[#e58f1f] px-4 py-2 flex items-center gap-2 rounded-md"
           >
             <FaEnvelope size={18} />
