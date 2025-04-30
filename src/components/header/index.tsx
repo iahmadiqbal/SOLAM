@@ -52,8 +52,9 @@ const Header = () => {
             >
               Contact
             </Link>
+            {/* UPDATED: Get a Quote now goes to /contact */}
             <Link
-              to="/quote"
+              to="/contact"
               className="text-lg text-white bg-blue-600 hover:bg-blue-700 px-4 py-2 flex items-center gap-2 rounded-md"
             >
               <FaEnvelope size={18} />
@@ -134,12 +135,13 @@ const Header = () => {
           >
             Contact
           </Link>
+          {/* UPDATED: Mobile version also goes to /contact */}
           <Link
-            to="/quote"
+            to="/contact"
             onClick={() => setIsMenuOpen(false)}
             className="text-lg text-white bg-blue-600 hover:bg-blue-700 px-4 py-2 flex items-center gap-2 rounded-md"
           >
-            <FaEnvelope size={18} /> {/* Keep Envelope icon */}
+            <FaEnvelope size={18} />
             Get a Quote
           </Link>
         </div>
