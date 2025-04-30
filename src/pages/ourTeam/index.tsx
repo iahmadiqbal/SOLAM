@@ -1,5 +1,11 @@
+import SolarLeaders from "../../components/SolarLeaders";
+
 function OurTeam() {
-  return <div>OurTeam</div>;
+  return (
+    <>
+      <SolarLeaders />;
+    </>
+  );
 }
 
 export default OurTeam;
