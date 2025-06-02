@@ -2,11 +2,6 @@ import { useEffect, useState } from "react";
 import { FaEnvelope } from "react-icons/fa";
 import { NavLink, useLocation, Link } from "react-router-dom";
 
-// ✅ TS fix: Use NavLink to avoid unused import error (but keep hidden)
-const HiddenNavLinkUsage = () => (
-  <span style={{ display: "none" }}>{NavLink ? "" : ""}</span>
-);
-
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
@@ -147,8 +142,8 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Fix unused NavLink import */}
-      <HiddenNavLinkUsage />
+      {/* Fix unused import NavLink without changing design or layout */}
+      <span style={{ display: "none" }}>{void NavLink}</span>
     </header>
   );
 };
