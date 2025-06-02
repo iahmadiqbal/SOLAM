@@ -5,7 +5,7 @@ import Home from "./pages/home";
 import Project from "./pages/project";
 import Services from "./pages/Services";
 import Header from "./components/header";
-import OurTeam from "./pages/ourTeam";
+import OurTeam from "./pages/ourteam";
 
 function App() {
   return (
