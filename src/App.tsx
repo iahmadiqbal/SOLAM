@@ -5,7 +5,7 @@ import Home from "./pages/home";
 import Project from "./pages/project";
 import Services from "./pages/Services";
 import Header from "./components/header";
-import OurTeam from "./pages/OurTeam";
+import OurTeam from "./pages/ourTeam";
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
         <Route path="/projects" element={<Project />} />
         <Route path="/services" element={<Services />} />
         <Route path="/ourTeam" element={<OurTeam />} />
+
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </>
