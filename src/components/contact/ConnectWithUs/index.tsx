@@ -21,7 +21,7 @@ const ConnectWithUs = () => {
     resolver: zodResolver(formSchema),
   });
 
-  const onSubmit = (data) => {
+  const onSubmit = (data: any) => {
     localStorage.setItem("contactForm", JSON.stringify(data));
     alert("Message saved to local storage!");
     reset();
