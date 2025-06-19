@@ -1,0 +1,62 @@
+[33m0ea3770[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m updated tsconfig.json file
+[33m359c4ed[m updated EneryAwerness file
+[33mfcf17c0[m banner image resolved
+[33mdbc2db3[m images resolved
+[33m4d3b9c9[m src/App.tsx
+[33m94116e8[m src/app.tsx modified
+[33m946cc7d[m src app.tsx modified
+[33mbd38ca6[m updated app.tsx
+[33m5285e54[m modified component contctmap
+[33m9173304[m components header updated again
+[33mc6a88e0[m modified header component
+[33m44ecd61[m modified contactwithus
+[33m4e8084d[m any added in contact page
+[33mafeebe4[m change ourTEAM To ourTeam
+[33m4d111e1[m added usememo hook
+[33m57f0af2[m Optimized performance with useMemo hook
+[33mbc4ec17[m component updated
+[33m2c0bb9c[m i have added bg color in a get a quotes button
+[33mb620857[m i have added get a quotes and redirect to contact page
+[33m87795b4[m zod and reacthook added in this compnent and it store client information in the local storage
+[33mb73f7be[m footer section added in the last
+[33m16f65f8[m  Contact section with details and form for user inquiries.
+[33mbc7b1f1[m map added
+[33m20e7a60[m Add hero section with overlay
+[33m48f7b0b[m added footer section in the last in our Team component
+[33m4a86bb6[m Meet the Team component desined with responsive and added three more image
+[33ma630c64[m SolarLeaders completed and with responsive design
+[33m84b979b[m footer addes in service page
+[33mc1ac69d[m Add animated Solar Services section with Framer Motion
+[33md3a2f2f[m complted service top section
+[33mf3b38ab[m removed extra comments from this component and updated
+[33m5776e48[m footer add in the last
+[33ma4798a6[m Implemented responsive Solar Service Tabs with dynamic filtering and hover effects.
+[33m37f2f59[m removed extra comments
+[33mf24287f[m completed responsive SolarTeam section
+[33m11277ff[m Add testimonial section with feedback
+[33ma52c378[m Completed RenewableEnergyContainer component with YouTube integration
+[33m5a9962c[m about  componennt added
+[33m58616ee[m complted designed
+[33m4666729[m Add left-right animation to WhyChooseSolar
+[33m431f1bc[m Add fast left-right animation in IntroSection component
+[33ma2a0637[m Implement Framer Motion for smooth top-to-bottom text animation
+[33m2361e05[m Make ProfessionalTeam a reusable component with dynamic data
+[33m107b8a7[m Make MetricCard component reusable and update container background color to #F8F3EF in KeyMetrics component
+[33m4b96b30[m Make EnergyAwareness section fully reusable with dynamic props
+[33m3772746[m Updated Footer component with React Router Link for internal navigation
+[33m5c7f3b8[m completd footer component with responsive design
+[33m19c3d52[m Completed Professional Team component with responsive design and hover effects.
+[33m5365de5[m app compenent updated
+[33m915fcb5[m Complete WhyChooseSolar component with responsive layout and full-width content
+[33ma2fbaf3[m Refactor KeyMetrics component to use Flexbox for responsive layout and improve card styling
+[33med12f1b[m src/components/home/EnergyAwareness/index.tsx
+[33m79bf79c[m Added EnergyAwareness component with Tailwind CSS and Framer Motion animations
+[33m76761c1[m Completed Project Showcase section with responsive design and hover effects
+[33m4ab3059[m bottom-to-top animation to images using Framer Motion
+[33m52fb928[m Our Services' section with responsive  layout
+[33m6f53ddd[m Completed Intro Section with responsive design and improved UI
+[33m8971f02[m Updated SolarHeroSection component with hover effect on button and adjusted padding. Removed opacity from image background. Added new background color on hover for energy box.
+[33m0da5df3[m removed unwanted comments from header code
+[33ma32ade1[m removed extra comments
+[33mcef54f2[m header desined
+[33mf9afda6[m First Commit

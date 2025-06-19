@@ -1,0 +1,371 @@
+[33mcommit 0ea37703dfac1f80e4b4375157f68caf5a014d61[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Thu Jun 19 00:24:33 2025 -0700
+
+    updated tsconfig.json file
+
+[33mcommit 359c4edec37760754c7a18be00eabb4580d82452[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Thu Jun 19 00:20:03 2025 -0700
+
+    updated EneryAwerness file
+
+[33mcommit fcf17c01bc5dbcc23327c82cab6f94c0205b6aab[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Wed Jun 18 23:48:24 2025 -0700
+
+    banner image resolved
+
+[33mcommit dbc2db33306d885b1be11b1cd4dae03b93b087b2[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Wed Jun 18 23:45:02 2025 -0700
+
+    images resolved
+
+[33mcommit 4d3b9c9a0541cca29d273996e5a276f3c6f564fe[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Mon Jun 2 01:31:18 2025 -0700
+
+    src/App.tsx
+
+[33mcommit 94116e86296ecae34174d797ffc0bb745afb2438[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Mon Jun 2 01:27:18 2025 -0700
+
+    src/app.tsx modified
+
+[33mcommit 946cc7d370cd5ca036818f970004753687369781[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Mon Jun 2 01:24:08 2025 -0700
+
+    src app.tsx modified
+
+[33mcommit bd38ca6753c001161a049156c532d2d3d6d6ec1b[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Mon Jun 2 01:16:54 2025 -0700
+
+    updated app.tsx
+
+[33mcommit 5285e54fde0a40435404364844dce4152425a2b7[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Mon Jun 2 00:47:54 2025 -0700
+
+    modified component contctmap
+
+[33mcommit 9173304352a04067fc84ce58e388b05c18475d10[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Mon Jun 2 00:43:19 2025 -0700
+
+    components header updated again
+
+[33mcommit c6a88e0b6a54ce5b8b4449d1fffcfa5c0b39f5e3[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Mon Jun 2 00:40:17 2025 -0700
+
+    modified header component
+
+[33mcommit 44ecd61dc310815c153fc5c5b00edc4cae1bb141[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Mon Jun 2 00:33:18 2025 -0700
+
+    modified contactwithus
+
+[33mcommit 4e8084d83bb54e4f7ddda703fd4b27af54b66e46[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Mon Jun 2 00:30:39 2025 -0700
+
+    any added in contact page
+
+[33mcommit afeebe419c29280a413b37e46c42e39f1d3519a6[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Mon Jun 2 00:25:33 2025 -0700
+
+    change ourTEAM To ourTeam
+
+[33mcommit 4d111e1bc537682d81049d4da9bddf561dffa218[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Wed Apr 30 11:42:58 2025 -0700
+
+    added usememo hook
+
+[33mcommit 57f0af276a27bdca6ec612a21cd3c93e13f70b95[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Wed Apr 30 03:14:39 2025 -0700
+
+    Optimized performance with useMemo hook
+
+[33mcommit bc4ec17988780213528161fe554aa00aaf032b6e[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Wed Apr 30 01:44:03 2025 -0700
+
+    component updated
+
+[33mcommit 2c0bb9c89da78763847760d5c10d4e740eeb3c16[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Wed Apr 30 01:35:43 2025 -0700
+
+    i have added bg color in a get a quotes button
+
+[33mcommit b62085712443c456345731013728c32e750b7975[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Wed Apr 30 01:32:30 2025 -0700
+
+    i have added get a quotes and redirect to contact page
+
+[33mcommit 87795b48bb5b395e7790262fccd1679a2746bf47[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Wed Apr 30 01:26:07 2025 -0700
+
+    zod and reacthook added in this compnent and it store client information in the local storage
+
+[33mcommit b73f7bec58793755cd656532af4317b0cd292b8e[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Wed Apr 30 01:20:12 2025 -0700
+
+    footer section added in the last
+
+[33mcommit 16f65f89f24877d5b3e06d12dc68d8e43fa4a9d6[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Wed Apr 30 01:18:56 2025 -0700
+
+     Contact section with details and form for user inquiries.
+
+[33mcommit bc7b1f16c1df5eacd691a387d9f5c95d08822e48[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Wed Apr 30 00:29:08 2025 -0700
+
+    map added
+
+[33mcommit 20e7a609002fc7406dc49c374478b505ee4641a1[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Wed Apr 30 00:20:42 2025 -0700
+
+    Add hero section with overlay
+
+[33mcommit 48f7b0b7a1a36e7ed6ed7dd3775d921db71b0983[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Tue Apr 29 23:58:54 2025 -0700
+
+    added footer section in the last in our Team component
+
+[33mcommit 4a86bb669d1de099ab0741217eabdb9e395b2635[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Tue Apr 29 23:57:23 2025 -0700
+
+    Meet the Team component desined with responsive and added three more image
+
+[33mcommit a630c64e808e0cb912037ae25f7a78a26e1530e7[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Tue Apr 29 23:44:32 2025 -0700
+
+    SolarLeaders completed and with responsive design
+
+[33mcommit 84b979b2408549e028a94987fb878a15f49398bb[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Tue Apr 29 13:37:04 2025 -0700
+
+    footer addes in service page
+
+[33mcommit c1ac69dfe05549cda28f9aada7a66ab35190bcc6[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Tue Apr 29 13:35:28 2025 -0700
+
+    Add animated Solar Services section with Framer Motion
+
+[33mcommit d3a2f2fd936dc24ee6fd31f8dd066a54f92ed671[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Tue Apr 29 13:01:46 2025 -0700
+
+    complted service top section
+
+[33mcommit f3b38ab36cf40eca92388fab2a69547b9e7cc9ba[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Tue Apr 29 12:51:24 2025 -0700
+
+    removed extra comments from this component and updated
+
+[33mcommit 5776e4879f55eb8387dca021b068c7ef930e2242[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Tue Apr 29 12:46:12 2025 -0700
+
+    footer add in the last
+
+[33mcommit a4798a6bd0d4f5d98aa7b14643c3369749fa69d4[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Tue Apr 29 12:43:07 2025 -0700
+
+    Implemented responsive Solar Service Tabs with dynamic filtering and hover effects.
+
+[33mcommit 37f2f597869a8705ba66abccfbc2142840e9c7b4[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Tue Apr 29 08:27:23 2025 -0700
+
+    removed extra comments
+
+[33mcommit f24287f1e7ab000279e22c70df74dc4a226822e5[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Tue Apr 29 07:00:04 2025 -0700
+
+    completed responsive SolarTeam section
+
+[33mcommit 11277ff05aa56f8580f3deffb78b1526fbb8f106[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Tue Apr 29 03:59:34 2025 -0700
+
+    Add testimonial section with feedback
+
+[33mcommit a52c378bcee320a291c579bfe7bbef5ba03d6b37[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Tue Apr 29 03:38:17 2025 -0700
+
+    Completed RenewableEnergyContainer component with YouTube integration
+
+[33mcommit 5a9962c8435fa1f9e2e41bd692fd90983ac018dd[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Tue Apr 29 02:44:07 2025 -0700
+
+    about  componennt added
+
+[33mcommit 58616eef34e58aae3c8e93dfd2a914197f0cc55c[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Tue Apr 29 01:33:49 2025 -0700
+
+    complted designed
+
+[33mcommit 466672972de2ddeb6bf83e6c4be963685bac6939[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Mon Apr 28 23:46:30 2025 -0700
+
+    Add left-right animation to WhyChooseSolar
+
+[33mcommit 431f1bc19f35474665f72185e516aa4938e7b9ff[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Mon Apr 28 23:41:45 2025 -0700
+
+    Add fast left-right animation in IntroSection component
+
+[33mcommit a2a0637bc52bbf933bd461c7f86b309f2b874707[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Mon Apr 28 23:30:08 2025 -0700
+
+    Implement Framer Motion for smooth top-to-bottom text animation
+
+[33mcommit 2361e059e9cb4a1d68e0a2b33d59c2a4cf3b9478[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Mon Apr 28 23:17:54 2025 -0700
+
+    Make ProfessionalTeam a reusable component with dynamic data
+
+[33mcommit 107b8a7db1c194aa28fd944b79b3b991bcdc59a6[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Mon Apr 28 22:50:00 2025 -0700
+
+    Make MetricCard component reusable and update container background color to #F8F3EF in KeyMetrics component
+
+[33mcommit 4b96b30914a970d342e46e521af0d77c6602ae23[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Mon Apr 28 22:20:45 2025 -0700
+
+    Make EnergyAwareness section fully reusable with dynamic props
+
+[33mcommit 37727463f9e1d726232e6772a228c78bd8aa9661[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Mon Apr 28 12:15:15 2025 -0700
+
+    Updated Footer component with React Router Link for internal navigation
+
+[33mcommit 5c7f3b8aa9ba89806ef4a2a356aacdda2c851acf[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Mon Apr 28 12:09:08 2025 -0700
+
+    completd footer component with responsive design
+
+[33mcommit 19c3d52977added2d91ec4a956dd24d9e6debd26[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Mon Apr 28 11:01:39 2025 -0700
+
+    Completed Professional Team component with responsive design and hover effects.
+
+[33mcommit 5365de5f4efb7e9b10d0e00dc47d6de7214a6b49[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Mon Apr 28 09:56:20 2025 -0700
+
+    app compenent updated
+
+[33mcommit 915fcb51ce0d505ca3ba4424a95084fd40a95d5b[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Mon Apr 28 09:31:10 2025 -0700
+
+    Complete WhyChooseSolar component with responsive layout and full-width content
+
+[33mcommit a2fbaf33b0f1ee309f495deea1e00e3cfc524678[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Mon Apr 28 08:56:48 2025 -0700
+
+    Refactor KeyMetrics component to use Flexbox for responsive layout and improve card styling
+
+[33mcommit ed12f1b2bd102d65f4ccbd60742b77ce369191b9[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Mon Apr 28 03:19:39 2025 -0700
+
+    src/components/home/EnergyAwareness/index.tsx
+
+[33mcommit 79bf79c9d9cf10e20f21864950943082cc6bfe01[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Mon Apr 28 02:22:58 2025 -0700
+
+    Added EnergyAwareness component with Tailwind CSS and Framer Motion animations
+
+[33mcommit 76761c1f6222c119c1507490994a5e6090644083[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Sun Apr 27 23:33:03 2025 -0700
+
+    Completed Project Showcase section with responsive design and hover effects
+
+[33mcommit 4ab3059e11cad16fdcf0f9a2af3a61e09c6e361d[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Sun Apr 27 03:57:58 2025 -0700
+
+    bottom-to-top animation to images using Framer Motion
+
+[33mcommit 52fb9289e51966915cbfa932ecba447a9803634f[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Sun Apr 27 03:52:09 2025 -0700
+
+    Our Services' section with responsive  layout
+
+[33mcommit 6f53ddd8d237c0afa4fd8f633a1c71bb4576c7e1[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Sat Apr 26 23:34:55 2025 -0700
+
+    Completed Intro Section with responsive design and improved UI
+
+[33mcommit 8971f0246b2c8f3b54c044482bae405b36e6f2ca[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Fri Apr 25 03:20:05 2025 -0700
+
+    Updated SolarHeroSection component with hover effect on button and adjusted padding. Removed opacity from image background. Added new background color on hover for energy box.
+
+[33mcommit 0da5df396e5e1cafde8c5c65c83917ba9be83e2c[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Thu Apr 24 23:56:14 2025 -0700
+
+    removed unwanted comments from header code
+
+[33mcommit a32ade13e398dc25dc1e4a7f1577a4813621d748[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Thu Apr 24 13:30:29 2025 -0700
+
+    removed extra comments
+
+[33mcommit cef54f2b7215a433ebcf3d598d26f79ea33aab4f[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Thu Apr 24 13:28:25 2025 -0700
+
+    header desined
+
+[33mcommit f9afda65b7cccf19617716c4afb1612f77e59977[m
+Author: Itx-Ahmed <ahmadiqbal858687@gmail.com>
+Date:   Thu Apr 24 01:34:00 2025 -0700
+
+    First Commit
