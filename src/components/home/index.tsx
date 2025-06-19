@@ -9,7 +9,7 @@ const SolarHeroSection = () => {
   };
 
   return (
-    <section className="relative py-40 px-6 text-left bg-cover bg-center bg-no-repeat bg-[url('images/SolarHeroSection.jpg')]">
+    <section className="relative py-40 px-6 text-left bg-cover bg-center bg-no-repeat bg-[url('/images/SolarHeroSection.jpg')]">
       <div className="absolute inset-0"></div>
 
       {/* Unified animation wrapper */}
