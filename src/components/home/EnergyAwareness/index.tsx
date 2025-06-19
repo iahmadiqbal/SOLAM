@@ -1,4 +1,18 @@
 import { motion } from "framer-motion";
+import type { MotionProps } from "framer-motion";
+
+const MotionDiv = motion.div as React.FC<
+  React.HTMLAttributes<HTMLDivElement> & MotionProps
+>;
+const MotionH2 = motion.h2 as React.FC<
+  React.HTMLAttributes<HTMLHeadingElement> & MotionProps
+>;
+const MotionP = motion.p as React.FC<
+  React.HTMLAttributes<HTMLParagraphElement> & MotionProps
+>;
+const MotionImg = motion.img as React.FC<
+  React.ImgHTMLAttributes<HTMLImageElement> & MotionProps
+>;
 
 const EnergyAwareness = ({
   heading = "Ecological Way",
@@ -26,19 +40,19 @@ const EnergyAwareness = ({
 
   return (
     <section className="flex flex-col md:flex-row items-start justify-between py-12 px-6 bg-[#FAF5EF]">
-      <motion.div className="md:w-1/2 w-full text-left" {...motionProps}>
+      <MotionDiv className="md:w-1/2 w-full text-left" {...motionProps}>
         <div className="w-9 border-t-2 border-[#F7A235] mb-4"></div>
 
-        <motion.h2
+        <MotionH2
           className="text-xl font-normal text-[#333] mb-4"
           initial={{ x: -200 }}
           animate={{ x: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           {heading}
-        </motion.h2>
+        </MotionH2>
 
-        <motion.p
+        <MotionP
           className="text-4xl font-bold text-[#333] mb-6"
           initial={{ x: -200 }}
           animate={{ x: 0 }}
@@ -50,26 +64,26 @@ const EnergyAwareness = ({
               <br />
             </span>
           ))}
-        </motion.p>
+        </MotionP>
 
-        <motion.p
+        <MotionP
           className="text-xl font-normal text-gray-600 mb-8"
           initial={{ x: -200 }}
           animate={{ x: 0 }}
           transition={{ duration: 0.6, delay: 0.6 }}
         >
           {description}
-        </motion.p>
+        </MotionP>
 
         <div className="flex flex-col md:flex-row justify-between mb-8 space-y-6 md:space-y-0">
-          <motion.div
+          <MotionDiv
             className="md:w-1/2 w-full"
             initial={{ x: -200 }}
             animate={{ x: 0 }}
             transition={{ duration: 0.6, delay: 0.8 }}
           >
             <span className="flex flex-col items-center">
-              <img
+              <MotionImg
                 src={feature1Icon}
                 alt="Feature 1 Icon"
                 className="w-8 h-8 mb-2"
@@ -91,16 +105,16 @@ const EnergyAwareness = ({
                 </span>
               ))}
             </p>
-          </motion.div>
+          </MotionDiv>
 
-          <motion.div
+          <MotionDiv
             className="md:w-1/2 w-full"
             initial={{ x: -200 }}
             animate={{ x: 0 }}
             transition={{ duration: 0.6, delay: 1 }}
           >
             <span className="flex flex-col items-center">
-              <img
+              <MotionImg
                 src={feature2Icon}
                 alt="Feature 2 Icon"
                 className="w-8 h-8 mb-2"
@@ -122,17 +136,17 @@ const EnergyAwareness = ({
                 </span>
               ))}
             </p>
-          </motion.div>
+          </MotionDiv>
         </div>
-      </motion.div>
+      </MotionDiv>
 
-      <motion.div className="md:w-1/2 w-full" {...motionImageProps}>
-        <img
+      <MotionDiv className="md:w-1/2 w-full" {...motionImageProps}>
+        <MotionImg
           src={mainImage}
           alt="Energy Systems"
           className="w-full h-auto object-cover"
         />
-      </motion.div>
+      </MotionDiv>
     </section>
   );
 };
